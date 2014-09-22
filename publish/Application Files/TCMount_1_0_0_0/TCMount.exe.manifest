@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="TCMount.exe" version="1.0.0.0" publicKeyToken="9e291456aa85d3c9" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="TCMount" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="TCMount.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TCMount.exe" size="563200">
+      <assemblyIdentity name="TCMount" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>RxG/eCq5vva/REuksXMq5QJeP5c=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="TCMount.exe.config" size="278">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>/XFGd5wNH09WDI62tNrlfOielg4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="TrueCrypt.exe" size="1516496">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>TEiR9er8+blr4B4xAxmS2emNOcM=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=VRXSTUDIOS\cfeval" issuerKeyHash="aaa506306b9f6faf8e360b615ae15a1220134ca6" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>+jOmFk1/dCMlBAJNpsOqYPWi1Q0=</DigestValue></Reference></SignedInfo><SignatureValue>i2I3x3ouvjH2TOo7UCyzNeq63+Xj3oiaxCSt3XaUDQM3A+Nn42wpcv9MmjvKioa5Z8jq5OyMGN2i48oqhPhApV2exRzFfv7s0Fh9fJE64OkeqHKrrH2FOvMTUx5FuqiscLcvixmBLggblj/+c2ZU9z5fXFp6tRcvGhiSb4Mel/A=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>pGoC/GieOnJhD+9kt5AhoybHSfeRi+Suezp0mh5D2FDz7XpjzRHxnFhK073XInUZKqWrk4WhA3l7rSkYrO6dKmgAgPbnz+SFWbTXA68OjUgZOM0Jk3V+7DXu6+cB/cn8g9x7M0pq9RaBqegc4RwJIrVHi2mxrOAuo7j1gdQo9Vs=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="0dd5a2f560aac3a64d02042523747f4d16a633fa" Description="" Url=""><as:assemblyIdentity name="TCMount.exe" version="1.0.0.0" publicKeyToken="9e291456aa85d3c9" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=VRXSTUDIOS\cfeval</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>08GDrhCWBOf/IAWtp6uSux4QrmE=</DigestValue></Reference></SignedInfo><SignatureValue>oRkN4eEcFwCDUfIESuSAfFxR7VET85nfnFC/XlxmRWqvx4IXBljWt4tXterPle2ySl4F9AfMiGznrBQ0Vc1/wVzVBgKdOd6HHJb/HPQf2xG30pzfnfx+cywbignXu7qQ9cOhwCJ8P6W5sHO4PeVnuSmBmAAZiU9N+VgLuKt26+4=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>pGoC/GieOnJhD+9kt5AhoybHSfeRi+Suezp0mh5D2FDz7XpjzRHxnFhK073XInUZKqWrk4WhA3l7rSkYrO6dKmgAgPbnz+SFWbTXA68OjUgZOM0Jk3V+7DXu6+cB/cn8g9x7M0pq9RaBqegc4RwJIrVHi2mxrOAuo7j1gdQo9Vs=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB3TCCAUagAwIBAgIQZR44rj0RspxDk/vA2tVsADANBgkqhkiG9w0BAQUFADAtMSswKQYDVQQDHiIAVgBSAFgAUwBUAFUARABJAE8AUwBcAGMAZgBlAHYAYQBsMB4XDTE0MDkyMjIzMjkxNVoXDTE1MDkyMzA1MjkxNVowLTErMCkGA1UEAx4iAFYAUgBYAFMAVABVAEQASQBPAFMAXABjAGYAZQB2AGEAbDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEApGoC/GieOnJhD+9kt5AhoybHSfeRi+Suezp0mh5D2FDz7XpjzRHxnFhK073XInUZKqWrk4WhA3l7rSkYrO6dKmgAgPbnz+SFWbTXA68OjUgZOM0Jk3V+7DXu6+cB/cn8g9x7M0pq9RaBqegc4RwJIrVHi2mxrOAuo7j1gdQo9VsCAwEAATANBgkqhkiG9w0BAQUFAAOBgQBNZ0Oh+fAYHdkkjXKB7BpGA8zBmFBxjDmMAHhsZmIJSk5Jp+NbnxcmpFjT27yzeEn0LeBjQVDa/s3PJsk7hJeLmtABgHbMFtIxsDinnJliSawLeBoVSk5Uhsp8CF35xLrdC7VLQIDelq7fbq4YYhk8UuG5J09JI08NPnAOLpXJlw==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
