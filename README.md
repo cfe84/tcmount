@@ -1,3 +1,3 @@
 tcmount
 =======
-Install here: https://github.com/cfe84/tcmount/raw/master/publish/TCMount.application
+Install here: https://rawgit.com/cfe84/tcmount/master/publish/deployment.html
